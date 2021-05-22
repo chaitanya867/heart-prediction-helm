@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: heart_pre
+  name: {{ .Values.name }}
+spec:
+  replicas: {{ .Values.replica }}
+  selector:
+    matchLabels:
+      app: heart_pre
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: heart_pre
+    spec:
+      containers:
+      - image: {{ .Values.prediction_image }}
+        name: heart-prediction-app-xj6lx
+        resources: {}
+status: {}
