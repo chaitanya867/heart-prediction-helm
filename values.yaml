@@ -1,0 +1,4 @@
+name: heart-prediction-app
+replica: 2
+prediction_image: chaitanya867/heart_prediction_app
+
