@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  heart_prediction:
+  - apiVersion: v1
+    appVersion: "1.1"
+    created: "2021-05-22T17:04:21.559612806Z"
+    digest: 870dbcaf584d8b1fd91634f96f4d5fb39556fdc2c6d352d23d351e2d1f236d4f
+    name: heart_prediction
+    urls:
+    - heart_prediction-0.1.tgz
+    version: "0.1"
+generated: "2021-05-22T17:04:21.559252483Z"
